@@ -139,11 +139,15 @@ class ARKitFaceAnchor extends ARKitAnchor {
     Matrix4 transform,
     this.leftEyeTransform,
     this.rightEyeTransform,
+    this.vertices,
   ) : super(
           nodeName,
           identifier,
           transform,
         );
+
+  /// The vertices extracted from the face geometry.
+  final dynamic vertices;
 
   /// The face geometry updated based on the computed blend shapes.
   final ARKitFace geometry;

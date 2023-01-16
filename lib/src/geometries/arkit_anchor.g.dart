@@ -94,6 +94,7 @@ ARKitFaceAnchor _$ARKitFaceAnchorFromJson(Map json) => ARKitFaceAnchor(
       const MatrixConverter().fromJson(json['transform'] as List),
       const MatrixConverter().fromJson(json['leftEyeTransform'] as List),
       const MatrixConverter().fromJson(json['rightEyeTransform'] as List),
+      json['vertices'],
     );
 
 Map<String, dynamic> _$ARKitFaceAnchorToJson(ARKitFaceAnchor instance) {

@@ -1,5 +1,3 @@
-import 'dart:ui';
-
 import 'package:arkit_plugin/src/utils/json_converters.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter/widgets.dart';
